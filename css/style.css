@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    /* background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; */
+    width: 100%;
+    padding: 20px;
+}
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+.header-meio {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 398px;
+    /* padding-right: 21px; */
+}
+
+.img-size {
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+    padding-right: 56px;
+
+}
+
+.circle{
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.label{
+    position: relative !important;
+    top: 10px;
+    bottom: 10px;
+}
+
+/* footer */
+.footer-basic {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    padding:40px 0;
+    /* background-color:#ffffff; */
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    /* font-size:18px; */
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    /* padding:0 10px; */
+    /* padding-right: 66px !important; */
+  }
+  
+  .footer-basic ul a {
+    color:white;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    /* padding-bottom:25px; */
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:white;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+
+  .center{
+    max-width: 500px;
+    margin: auto;
+    padding-top: 450px;
+    padding-left: 159px;
+  }
